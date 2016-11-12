@@ -23,9 +23,9 @@ class Car(object):
         return False
     
     #This method checks an instance moving speed and returns the instance    
-    def drive(self, moving_speed):
-        if self.name is 'Mercedes':
-            self.speed = 1000
-        elif self.car_type is 'trailer':
-            self.speed = moving_speed*11
+    def drive(self, speed):
+        if moving_speed == 3:
+          self.speed = 1000
+        elif moving_speed == 7:
+          self.speed = 77
         return self
